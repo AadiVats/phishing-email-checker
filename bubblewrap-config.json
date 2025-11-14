@@ -1,0 +1,36 @@
+{
+  "packageId": "com.phishguard.ai",
+  "host": "https://your-domain.com",
+  "name": "PhishGuard AI",
+  "launcherName": "PhishGuard",
+  "display": "standalone",
+  "themeColor": "#667eea",
+  "navigationColor": "#667eea",
+  "backgroundColor": "#667eea",
+  "startUrl": "/",
+  "iconUrl": "https://your-domain.com/icon-512.png",
+  "maskableIconUrl": "https://your-domain.com/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "phishguard"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://your-domain.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableNotifications": true
+}
